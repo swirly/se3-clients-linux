@@ -10,9 +10,9 @@ Le 30 août 2012 version 1.0.2
     Modification dans le profil par défaut (aussi bien pour Squeeze que pour
     Precise) proposé par le paquet. Le lanceur "Google" supposait que Firefox
     était installé sur les clients. Ce lanceur a été remplacé par un lanceur
-    de type "Link" et c'est le navigateur par défaut qui se lance 
+    de type "Link" et c'est le navigateur par défaut qui se lance
     automatiquement (qui peut être Firefox ou non).
-    
+
 Le 3 novembre 2012 version 1.0.3
     Modification du fichier postinst du paquet : suppression du « exit 1 »
     en cas d'erreur sur le test du serveur NTP du SE3. Ce « exit 1 » est
@@ -20,7 +20,7 @@ Le 3 novembre 2012 version 1.0.3
 
     Ajout de la dépendance « se3-logonpy > 2.3.7216 » pour résoudre le
     conflit avec ce paquet au niveau du fichier smb-CIFS.conf.
-  
+
 Le 6 novembre 2012 version 1.1
     Modification de la structure du paquet via la suppression du
     fichier LISEZMOI.TXT du paquet .deb, sachant que ce fichier
@@ -33,7 +33,7 @@ Le 6 novembre 2012 version 1.1
     pourra gérer la partie montage des partages (suivant le compte,
     suivant la station cliente, suivant l'appartenance à un groupe etc.)
     comme il le souhaite et le tout de manière relativement simple.
-    
+
 Le 24 novembre 2012 version 1.1.1
     Ajout de la fonction changer_papier_peint utilisable dans
     le fichier logon_perso et qui fait ce qu'on attend d'elle.
@@ -58,7 +58,7 @@ Le 6 janvier 2013 version 1.1.2
     les bons droits sur les fichiers du paquet, et que l'on puisse injecter
     le contenu de logon_perso dans logon, le tout directement via un client
     Linux avec le compte admin. Modification de la documentation en conséquence.
-    
+
 Le 6 janvier 2013 version 1.1.3
     Modification du fichier preinst du paquet car deux vérifications un peu
     zélées interrompaient directement un « apt-get upgrade » si celui-ci
@@ -82,11 +82,11 @@ Le 9 décembre 2013 version 1.1.6
     La désintégration ne fonctionne pas pour l'instant et le
     script a été mis dans /home/netlogon/clients-linux/.test.
 
-     
+
 Le 20 octobre 2014 version 1.1.7
-    Modification du fonctionnement du script logon afin de lui 
-    ajouter un une fois par parc et une fonction permettant le lancement 
-    de scripts par parc à chaque démarrage. 
+    Modification du fonctionnement du script logon afin de lui
+    ajouter un une fois par parc et une fonction permettant le lancement
+    de scripts par parc à chaque démarrage.
 
 Le 15 mars 2015 version 1.1.8
 - Ajout fonctions concernant les lancement par parcs.
@@ -101,7 +101,7 @@ le 20 novembre 2015 version 2.0.1
 Passage sur github
 https://github.com/flaf/se3-clients-linux/blob/master/README.md
 Nouveau support de Debian Jessie (version 8)
-(x)Ubuntu Trusty Tahr (version 14.04) 
+(x)Ubuntu Trusty Tahr (version 14.04)
 
 Janvier 2016
 - Correction droits sur /home/netlogon/clients-linux pour ajout www-se3 en rx
@@ -118,5 +118,3 @@ Juin 2016
 
 10/2016
 - Ajout de l'option raw NTLMv2 auth = yes pour compatibilité samba 4.4
-
-

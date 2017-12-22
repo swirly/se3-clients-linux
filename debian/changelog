@@ -1,0 +1,7 @@
+se3-clients-linux (2.0.2~1) UNREALEASED; urgency=low
+
+  * initial debian changelog release
+  * Update file structure and script to debian standard
+  * moved historical changelog to /usr/share/doc/
+
+ -- Laurent COOPER <laurent.cooper@ac-grenoble.fr>  Fri, 22 Dec 2017 15:08:55 +0100

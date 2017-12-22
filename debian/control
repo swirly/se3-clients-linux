@@ -1,13 +1,15 @@
-Package: se3-clients-linux
-Version: 2.1.2
+Source: se3-clients-linux
 Section: misc
 Priority: optional
+Maintainer: François Lafont <francois.lafont@ac-versailles.fr>
+Build-Depends: debhelper (>=9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/flaf/se3-clients-linux
+
+Package: se3-clients-linux
 Architecture: all
 Depends: se3-domain, se3-logonpy (>= 2.7)
-Maintainer: François Lafont <francois.lafont@ac-versailles.fr>
-Homepage: https://github.com/flaf/se3-clients-linux
 Description: To support Linux clients integration in a Se3 domain
  To support Linux clients integration in a SambaEdu3 domain.
  The goal is to support Debian distributions and LTS Ubuntu
  distributions.
-
